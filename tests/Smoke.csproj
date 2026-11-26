@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../Firmware.cs" />
+    <Compile Include="../Programmers.cs" />
+    <Compile Include="../Cgt6Programmer.cs" />
+    <Compile Include="../PythonToolInstaller.cs" />
+    <Compile Include="../ChipSession.cs" />
+    <Compile Include="../AiDebugScope.cs" />
+    <Compile Include="../AiPreparation.cs" />
+    <Compile Include="../OpenOcdTool.cs" />
+  </ItemGroup>
+</Project>
